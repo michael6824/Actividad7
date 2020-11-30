@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<!--version HTML5-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets</title>
+    <link rel="icon" href="IMAGENES/pet_logo.jpg">
+    <link rel="stylesheet" href="Estilos/pets.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="index.html#Description">Description</a></li>
+        <li class="divider"></li>
+        <li><a href="#rodents">Rodents</a></li>
+        <li><a href="#dogs">Dogs</a></li>
+        <li><a href="#cats">Cats</a></li>
+    </ul>
+
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="index.html#Description">Description</a></li>
+        <li class="divider"></li>
+        <li><a href="#rodents">Rodents</a></li>
+        <li><a href="#dogs">Dogs</a></li>
+        <li><a href="#cats">Cats</a></li>
+    </ul>
+    <nav class="blue darken-1 navh">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"><img class="materialboxed circle img-logo" src="IMAGENES/pet_logo.jpg"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="left hide-on-med-and-down menu" style="margin-left: 280px;">
+                <li><a href="index.html"><i class="material-icons">Home</i></a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="" data-target="dropdown1"><i class="material-icons">Pets</i></a></li>
+                <li><a href="index.html#contact"><i class="material-icons">Contact Us</i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html"><i class="material-icons">Home</i></a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="" data-target="dropdown1"><i class="material-icons">Pets</i></a></li>
+        <li><a href="index.html#contact"><i class="material-icons">ContactUs</i></a></li>
+    </ul>
+
+
+    <div id="rodents" class="row section scrollspy">
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/syrian.jpg" class="img-div modal-trigger" href="#syrian">
+                    <span class="card-title white-text indigo accent-">Syrian Hamster</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/jebil.jpg" class="img-div modal-trigger" href="#gerbil">
+                    <span class="card-title white-text indigo accent-">Gerbil</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/mouse.jpg" class="img-div modal-trigger" href="#fancy">
+                    <span class="card-title white-text indigo accent-">Fancy Mouse</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/rabbit.jpg" class="img-div modal-trigger" href="#lionhead">
+                    <span class="card-title white-text indigo accent-">Lionhead Rabbit</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/guineapig.jpg" class="img-div modal-trigger" href="#guinea">
+                    <span class="card-title white-text indigo accent-">Guinea Pig</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/egyptianrat.jpg" class="img-div modal-trigger" href="#egyptian">
+                    <span class="card-title white-text indigo accent-">Egyptian Rat</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dogs" class="row section scrollspy">
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/cocker.jpg" class="img-div modal-trigger" href="#cocker">
+                    <span class="card-title white-text indigo accent-">Cocker Spaniel</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/tibetean.jpg" class="img-div modal-trigger" href="#tibetean">
+                    <span class="card-title white-text indigo accent-">Tibetan Mastiff</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/bernard.jpg" class="img-div modal-trigger" href="#bernard">
+                    <span class="card-title white-text indigo accent-">Saint Bernard</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/frenchpoodle.png" class="img-div modal-trigger" href="#french">
+                    <span class="card-title white-text indigo accent-">French Poodle</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/syberian.jpg" class="img-div modal-trigger" href="#siberian">
+                    <span class="card-title white-text indigo accent-">Siberian Husky</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/pitbull.jpg" class="img-div modal-trigger" href="#pitbull">
+                    <span class="card-title white-text indigo accent-">Pitbull Terrier</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cats" class="row section scrollspy">
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/burmese.jpg" class="img-div modal-trigger" href="#burmese">
+                    <span class="card-title white-text indigo accent-">Burmese Cat</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/himalayan.jpg" class="img-div modal-trigger" href="#himalayan">
+                    <span class="card-title white-text indigo accent-">Himalayan Cat</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/sphynx.jpg" class="img-div modal-trigger" href="#sphynx">
+                    <span class="card-title white-text indigo accent-">Sphynx Cat</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/Bengala.jpg" class="img-div modal-trigger" href="#bengala">
+                    <span class="card-title white-text indigo accent-">Bengal Cat</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/British.jpg" class="img-div modal-trigger" href="#british">
+                    <span class="card-title white-text indigo accent-">British Shorthair Cat</span>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="IMAGENES/Siamese.jpg" class="img-div modal-trigger" href="#siamese">
+                    <span class="card-title white-text indigo accent-">Siamese Cat</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="syrian" class="modal">
+        <div class="modal-content">
+            <h4>Syrian Hamster</h4>
+            <p class="paragraph">Hamsters are very territorial and intolerant of each other; attacks against each other are commonplace. Exceptions do occur, usually when a female and male meet when the female is in heat, but even so, the female may attack the male after
+                mating.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="gerbil" class="modal">
+        <div class="modal-content">
+            <h4>Gerbil</h4>
+            <p class="paragraph">Gerbils are social animals, and live in groups in the wild. They rely on their sense of smell to identify other members of their clan.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="fancy" class="modal">
+        <div class="modal-content">
+            <h4>Fancy Mouse</h4>
+            <p class="paragraph">The term fancy mouse is used to describe a mouse that has been selectively bred for exhibition. Wild-caught specimens that become docile and are bred for many generations still fall under the fancy type.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="lionhead" class="modal">
+        <div class="modal-content">
+            <h4>LionHead Rabbit</h4>
+            <p class="paragraph">The Lionhead rabbit has a small, compact body, and the head is bold, yet not quite round from all sides, with well-developed muzzle. Their legs are of medium length and they are of medium bone. Their ears are not to exceed 3 inches long.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="guinea" class="modal">
+        <div class="modal-content">
+            <h4>Guinea Pig</h4>
+            <p class="paragraph">Guinea pigs can learn complex paths to food, and can accurately remember a learned path for months. Their strongest problem-solving strategy is motion. While guinea pigs can jump small obstacles, most of them are poor climbers, and are not
+                particularly agile.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="egyptian" class="modal">
+        <div class="modal-content">
+            <h4>Egyptian Rat</h4>
+            <p class="paragraph">The egyptian Rat is a burrowing rodent native to parts of East Africa. The naked mole-rat is well adapted to the limited availability of oxygen within the tunnels of its typical habitat. It has underdeveloped lungs and its hemoglobin has a
+                high affinity for oxygen.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="cocker" class="modal">
+        <div class="modal-content">
+            <h4>Cocker Spaniel</h4>
+            <p class="paragraph">The English Cocker Spaniel is a breed of gun dog. It is noteworthy for producing one of the most varied numbers of pups in a litter among all dog breeds. The English Cocker Spaniel is an active, good-natured and sporting dog.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="tibetean" class="modal">
+        <div class="modal-content">
+            <h4>Tibetean Mastiff</h4>
+            <p class="paragraph">The Tibetean Mastiff is a large Tibetan dog breed belonging to the mastiff family. Its double coat is long, subject to climate, and found in a wide variety of colors, including solid black, black and tan, and various shades of red.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="bernard" class="modal">
+        <div class="modal-content">
+            <h4>Saint Bernard</h4>
+            <p class="paragraph">Known as a classic example of a gentle giant, the Saint Bernard is calm, patient and sweet with adults, and especially children. However St. Bernards, like all very large dogs, must be well socialized with people and other dogs in order to
+                prevent fearfulness and any possible aggression or territoriality.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="french" class="modal">
+        <div class="modal-content">
+            <h4>French Poodle</h4>
+            <p class="paragraph">Poodles are known as a highly intelligent, energetic, and sociable breed. They require both physical and intellectual activities. A typical poodle should be reserved and a little aloof with strangers upon first introduction, but after a while
+                should slowly reveal a warm and personable disposition once the dog realizes the new person is trustworthy and means no harm.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="siberian" class="modal">
+        <div class="modal-content">
+            <h4>Siberian Husky</h4>
+            <p class="paragraph">The Siberian Husky is a medium-sized working dog breed. The breed belongs to the Spitz genetic family. It is recognizable by its thickly furred double coat, erect triangular ears, and distinctive markings, and is smaller than a very similar-looking
+                dog.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="pitbull" class="modal">
+        <div class="modal-content">
+            <h4>Pitbull Terrier</h4>
+            <p class="paragraph">The essential characteristics of the American Pit Bull Terrier are strength, confidence, and zest for life. This breed is eager to please and brimming over with enthusiasm. APBTs make excellent family companions and have always been noted
+                for their love of children.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="burmese" class="modal">
+        <div class="modal-content">
+            <h4>Burmese Cat</h4>
+            <p class="paragraph">The Burmese Cats are a notably people-oriented breed, maintaining their kitten-like energy and playfulness into adulthood. They are also said to have a number of overtly puppy-like characteristics, forming strong bonds with their owners and
+                gravitating toward human activity.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="himalayan" class="modal">
+        <div class="modal-content">
+            <h4>Himalayan Cat</h4>
+            <p class="paragraph">Himalayan cats are good indoor companions. By and large, they are sweet-tempered, intelligent, and generally very social, but they can be very moody at times. Because of their heritage from the Siamese cats, they tend to be more active than
+                Persians.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="sphynx" class="modal">
+        <div class="modal-content">
+            <h4>Sphynx Cat</h4>
+            <p class="paragraph">Sphynx are known for their extroverted behavior. They display a high level of energy, intelligence, curiosity and affection for their owners. They are one of the more dog-like breeds of cats, frequently greeting their owners at the door and
+                friendly when meeting strangers.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="bengala" class="modal">
+        <div class="modal-content">
+            <h4>Bengal Cat</h4>
+            <p class="paragraph">Bengal cats are smart, energetic and playful (though in some rare cases they may be quite lazy). Many Bengal owners say that their Bengal naturally retrieves items, and they often enjoy playing in water.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="british" class="modal">
+        <div class="modal-content">
+            <h4>British Shorthair Cat</h4>
+            <p class="paragraph">The British Shorthair is the pedigreed version of the traditional British domestic cat, with a distinctively stocky body, dense coat, and broad face. The most familiar color variant is the "British Blue," a solid grey-blue coat, orange eyes,
+                and a medium-sized tail.
+            </p>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="siamese" class="modal">
+        <div class="modal-content">
+            <h4>Siamese Cat</h4>
+            <p class="paragraph">Siamese are usually very affectionate and intelligent cats, renowned for their social nature. Many enjoy being with people and are sometimes described as "extroverts". Often they bond strongly to a single person.
+            </p>
+        </div>
+    </div>
+    <footer class="page-footer blue darken-1">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Copyright: Michael Rivera
+            </div>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/?lang=es" class="fa fa-twitter"></a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

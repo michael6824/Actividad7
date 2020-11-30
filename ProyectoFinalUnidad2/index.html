@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--version HTML5-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets</title>
+    <link rel="icon" href="IMAGENES/pet_logo.jpg">
+    <link rel="stylesheet" href="Estilos/estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info" id="home">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#"><img class="img_logo" src="IMAGENES/pet_logo.jpg"></a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav1">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pets</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#Description">Description</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="pets.html#rodents">Rodents</a>
+                        <a class="dropdown-item" href="pets.html#dogs">Dogs</a>
+                        <a class="dropdown-item" href="pets.html#cats">Cats</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Nav -->
+
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="IMAGENES/Imagen1.jpg" class="d-block w-100" alt="Canines" height="400px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Canines</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="IMAGENES/Imagen3.jpg" class="d-block w-100" alt="Felines" height="400px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Felines</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="IMAGENES/Imagen2.jpg" class="d-block w-100" alt="Rodents" height="400px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Rodents</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- slider -->
+    <!-- Text -->
+    <div class="container mt-5" id="Description">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h5>What is a Pet?</h5>
+                <p class="paragraph">A pet, or companion animal, is an animal kept primarily for a person's company or entertainment rather than as a working animal, livestock or a laboratory animal.
+                </p>
+                <img src="IMAGENES/Pets.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <h5>All the animals are Pets?</h5>
+                <p class="paragraph ">NO!, while many people have kept many different species of animals in captivity over the course of human history, only a relative few have been kept long enough to be considered domesticated.
+                    <br> The wild animals are recognized as not suitable to keep as pets, and this practice is completely banned in many places.
+                </p>
+                <img src="IMAGENES/wildvsdomesticated.jpg" class="img-fluid">
+            </div>
+            <div class=" col-lg-4 col-md-12 col-sm-12 ">
+                <h5>Health benefits</h5>
+                <p class="paragraph ">It is widely believed among the public, and among many scientists, that pets probably bring mental and physical health benefits to their owners.
+                </p>
+                <br>
+                <img src="IMAGENES/health.jpg" class="img-fluid">
+            </div>
+
+        </div>
+        <br>
+        <div class="d-flex justify-content-center">
+            <br>
+
+            <iframe width="605" height="405" src="https://www.youtube.com/embed/e4CC8q2b1DE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    </div>
+    <!-- Text -->
+    <!-- forms-->
+    <form class="container mt-5 rounded-lg was-validated" novalidate id="contact">
+        <h3>Contact Us</h3>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6852114943854!2d-74.05921582067485!3d4.650118743405088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a4172da2c39%3A0xf046703135402277!2sCorporaci%C3%B3n%20Universitaria%20Iberoamericana!5e0!3m2!1ses!2sco!4v1602341846138!5m2!1ses!2sco"
+                    width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col-lg-6 col-md-6 bg-info">
+                <br>
+                <br>
+                <div class="form-row ">
+                    <div class="col-md-6 mb-3 ">
+                        <label for="validationCustom01">First name</label>
+                        <input type="text " class="form-control" id="validationCustom01" placeholder="Write your Name" required name="name">
+                        <div class="valid-feedback "> Looks good! </div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3 ">
+                        <label for="validationCustom02">Last name</label>
+                        <input type="text " class="form-control" id="validationCustom02" placeholder="Write your Last Name" required name="lastname">
+                        <div class="valid-feedback "> Looks good! </div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                </div>
+                <div class="form-row ">
+                    <div class="col-md-6 mb-3 ">
+                        <label for="validationTextarea ">Comments</label>
+                        <textarea class="form-control" id="validationTextarea " placeholder="Write your comments" required name="comment"></textarea>
+                        <div class="valid-feedback "> Looks good! </div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="col-md-6 mb-3 ">
+                        <label for="validationServer04 ">City</label>
+                        <select name="city" class="custom-select " id="validationServer04 " aria-describedby="validationServer04Feedback " required> 
+              <option>Cali</option>
+              <option>Medellín</option>
+              <option>Bogotá</option>
+            </select>
+                        <div class="valid-feedback "> Looks good! </div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="col text-center ">
+                        <button class="btn btn-primary " type="submit">Submit form</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- forms-->
+
+    <!-- footer-->
+    <footer class="page-footer font-small blue ">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 ">© 2020 Copyright: Michael Rivera
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/?lang=es" class="fa fa-twitter"></a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- footer-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+    <script type="text/javascript " src="scripts/index.js "></script>
+</body>
+
+</html>
